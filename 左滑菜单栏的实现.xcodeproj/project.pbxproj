@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84C866811CE5D6F000CDB401 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C866801CE5D6F000CDB401 /* main.m */; };
+		84C8668A1CE5D6F000CDB401 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C866881CE5D6F000CDB401 /* Main.storyboard */; };
+		84C8668D1CE5D6F000CDB401 /* ________.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84C8668B1CE5D6F000CDB401 /* ________.xcdatamodeld */; };
+		84C8668F1CE5D6F000CDB401 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C8668E1CE5D6F000CDB401 /* Assets.xcassets */; };
+		84C866921CE5D6F000CDB401 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C866901CE5D6F000CDB401 /* LaunchScreen.storyboard */; };
+		84C8669D1CE5D6F000CDB401 /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C8669C1CE5D6F000CDB401 /* ________Tests.m */; };
+		84C866A81CE5D6F000CDB401 /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C866A71CE5D6F000CDB401 /* ________UITests.m */; };
+		84C866BE1CE5D8A800CDB401 /* ECMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C866B91CE5D8A800CDB401 /* ECMainController.m */; };
+		84C866BF1CE5D8A800CDB401 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C866BC1CE5D8A800CDB401 /* AppDelegate.m */; };
+		84C866C91CE5D9B900CDB401 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C866C81CE5D9B900CDB401 /* UIBarButtonItem+Extension.m */; };
+		84C866CC1CE5D9FC00CDB401 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C866CB1CE5D9FC00CDB401 /* UIImage+Extension.m */; };
+		84C866CF1CE5DA2500CDB401 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C866CE1CE5DA2500CDB401 /* UIView+Extension.m */; };
+		84C866D71CE5DD9C00CDB401 /* ECLeftButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C866D61CE5DD9C00CDB401 /* ECLeftButton.m */; };
+		84C866DA1CE5E03A00CDB401 /* ECTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C866D91CE5E03A00CDB401 /* ECTitleButton.m */; };
+		84C866DD1CE5E0C800CDB401 /* ECNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C866DC1CE5E0C800CDB401 /* ECNavigationController.m */; };
+		84C866E01CE5E9AD00CDB401 /* EC111ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C866DF1CE5E9AD00CDB401 /* EC111ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84C866991CE5D6F000CDB401 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84C866741CE5D6EF00CDB401 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84C8667B1CE5D6EF00CDB401;
+			remoteInfo = "左滑菜单栏的实现";
+		};
+		84C866A41CE5D6F000CDB401 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84C866741CE5D6EF00CDB401 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84C8667B1CE5D6EF00CDB401;
+			remoteInfo = "左滑菜单栏的实现";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84C8667C1CE5D6EF00CDB401 /* 左滑菜单栏的实现.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "左滑菜单栏的实现.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C866801CE5D6F000CDB401 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84C866891CE5D6F000CDB401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84C8668C1CE5D6F000CDB401 /* ________.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "________.xcdatamodel"; sourceTree = "<group>"; };
+		84C8668E1CE5D6F000CDB401 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84C866911CE5D6F000CDB401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84C866931CE5D6F000CDB401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C866981CE5D6F000CDB401 /* 左滑菜单栏的实现Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "左滑菜单栏的实现Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C8669C1CE5D6F000CDB401 /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________Tests.m"; sourceTree = "<group>"; };
+		84C8669E1CE5D6F000CDB401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C866A31CE5D6F000CDB401 /* 左滑菜单栏的实现UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "左滑菜单栏的实现UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C866A71CE5D6F000CDB401 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
+		84C866A91CE5D6F000CDB401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84C866B81CE5D8A800CDB401 /* ECMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECMainController.h; sourceTree = "<group>"; };
+		84C866B91CE5D8A800CDB401 /* ECMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECMainController.m; sourceTree = "<group>"; };
+		84C866BB1CE5D8A800CDB401 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84C866BC1CE5D8A800CDB401 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84C866C71CE5D9B900CDB401 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		84C866C81CE5D9B900CDB401 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		84C866CA1CE5D9FC00CDB401 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		84C866CB1CE5D9FC00CDB401 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		84C866CD1CE5DA2500CDB401 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		84C866CE1CE5DA2500CDB401 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		84C866D11CE5DCF800CDB401 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		84C866D51CE5DD9C00CDB401 /* ECLeftButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECLeftButton.h; sourceTree = "<group>"; };
+		84C866D61CE5DD9C00CDB401 /* ECLeftButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECLeftButton.m; sourceTree = "<group>"; };
+		84C866D81CE5E03A00CDB401 /* ECTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECTitleButton.h; sourceTree = "<group>"; };
+		84C866D91CE5E03A00CDB401 /* ECTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECTitleButton.m; sourceTree = "<group>"; };
+		84C866DB1CE5E0C800CDB401 /* ECNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECNavigationController.h; sourceTree = "<group>"; };
+		84C866DC1CE5E0C800CDB401 /* ECNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECNavigationController.m; sourceTree = "<group>"; };
+		84C866DE1CE5E9AD00CDB401 /* EC111ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EC111ViewController.h; sourceTree = "<group>"; };
+		84C866DF1CE5E9AD00CDB401 /* EC111ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EC111ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84C866791CE5D6EF00CDB401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C866951CE5D6F000CDB401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C866A01CE5D6F000CDB401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84C866731CE5D6EF00CDB401 = {
+			isa = PBXGroup;
+			children = (
+				84C8667E1CE5D6EF00CDB401 /* 左滑菜单栏的实现 */,
+				84C8669B1CE5D6F000CDB401 /* 左滑菜单栏的实现Tests */,
+				84C866A61CE5D6F000CDB401 /* 左滑菜单栏的实现UITests */,
+				84C8667D1CE5D6EF00CDB401 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84C8667D1CE5D6EF00CDB401 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84C8667C1CE5D6EF00CDB401 /* 左滑菜单栏的实现.app */,
+				84C866981CE5D6F000CDB401 /* 左滑菜单栏的实现Tests.xctest */,
+				84C866A31CE5D6F000CDB401 /* 左滑菜单栏的实现UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84C8667E1CE5D6EF00CDB401 /* 左滑菜单栏的实现 */ = {
+			isa = PBXGroup;
+			children = (
+				84C866B51CE5D8A800CDB401 /* Classes */,
+				84C8667F1CE5D6F000CDB401 /* Supporting Files */,
+				84C866D11CE5DCF800CDB401 /* PrefixHeader.pch */,
+			);
+			path = "左滑菜单栏的实现";
+			sourceTree = "<group>";
+		};
+		84C8667F1CE5D6F000CDB401 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84C866881CE5D6F000CDB401 /* Main.storyboard */,
+				84C8668E1CE5D6F000CDB401 /* Assets.xcassets */,
+				84C866901CE5D6F000CDB401 /* LaunchScreen.storyboard */,
+				84C866931CE5D6F000CDB401 /* Info.plist */,
+				84C8668B1CE5D6F000CDB401 /* ________.xcdatamodeld */,
+				84C866801CE5D6F000CDB401 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84C8669B1CE5D6F000CDB401 /* 左滑菜单栏的实现Tests */ = {
+			isa = PBXGroup;
+			children = (
+				84C8669C1CE5D6F000CDB401 /* ________Tests.m */,
+				84C8669E1CE5D6F000CDB401 /* Info.plist */,
+			);
+			path = "左滑菜单栏的实现Tests";
+			sourceTree = "<group>";
+		};
+		84C866A61CE5D6F000CDB401 /* 左滑菜单栏的实现UITests */ = {
+			isa = PBXGroup;
+			children = (
+				84C866A71CE5D6F000CDB401 /* ________UITests.m */,
+				84C866A91CE5D6F000CDB401 /* Info.plist */,
+			);
+			path = "左滑菜单栏的实现UITests";
+			sourceTree = "<group>";
+		};
+		84C866B51CE5D8A800CDB401 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				84C866B61CE5D8A800CDB401 /* Category */,
+				84C866B71CE5D8A800CDB401 /* Controller */,
+				84C866BA1CE5D8A800CDB401 /* Other */,
+				84C866BD1CE5D8A800CDB401 /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		84C866B61CE5D8A800CDB401 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				84C866C71CE5D9B900CDB401 /* UIBarButtonItem+Extension.h */,
+				84C866C81CE5D9B900CDB401 /* UIBarButtonItem+Extension.m */,
+				84C866CA1CE5D9FC00CDB401 /* UIImage+Extension.h */,
+				84C866CB1CE5D9FC00CDB401 /* UIImage+Extension.m */,
+				84C866CD1CE5DA2500CDB401 /* UIView+Extension.h */,
+				84C866CE1CE5DA2500CDB401 /* UIView+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		84C866B71CE5D8A800CDB401 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84C866B81CE5D8A800CDB401 /* ECMainController.h */,
+				84C866B91CE5D8A800CDB401 /* ECMainController.m */,
+				84C866DB1CE5E0C800CDB401 /* ECNavigationController.h */,
+				84C866DC1CE5E0C800CDB401 /* ECNavigationController.m */,
+				84C866DE1CE5E9AD00CDB401 /* EC111ViewController.h */,
+				84C866DF1CE5E9AD00CDB401 /* EC111ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84C866BA1CE5D8A800CDB401 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				84C866BB1CE5D8A800CDB401 /* AppDelegate.h */,
+				84C866BC1CE5D8A800CDB401 /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		84C866BD1CE5D8A800CDB401 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84C866D51CE5DD9C00CDB401 /* ECLeftButton.h */,
+				84C866D61CE5DD9C00CDB401 /* ECLeftButton.m */,
+				84C866D81CE5E03A00CDB401 /* ECTitleButton.h */,
+				84C866D91CE5E03A00CDB401 /* ECTitleButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84C8667B1CE5D6EF00CDB401 /* 左滑菜单栏的实现 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C866AC1CE5D6F000CDB401 /* Build configuration list for PBXNativeTarget "左滑菜单栏的实现" */;
+			buildPhases = (
+				84C866781CE5D6EF00CDB401 /* Sources */,
+				84C866791CE5D6EF00CDB401 /* Frameworks */,
+				84C8667A1CE5D6EF00CDB401 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "左滑菜单栏的实现";
+			productName = "左滑菜单栏的实现";
+			productReference = 84C8667C1CE5D6EF00CDB401 /* 左滑菜单栏的实现.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84C866971CE5D6F000CDB401 /* 左滑菜单栏的实现Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C866AF1CE5D6F000CDB401 /* Build configuration list for PBXNativeTarget "左滑菜单栏的实现Tests" */;
+			buildPhases = (
+				84C866941CE5D6F000CDB401 /* Sources */,
+				84C866951CE5D6F000CDB401 /* Frameworks */,
+				84C866961CE5D6F000CDB401 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84C8669A1CE5D6F000CDB401 /* PBXTargetDependency */,
+			);
+			name = "左滑菜单栏的实现Tests";
+			productName = "左滑菜单栏的实现Tests";
+			productReference = 84C866981CE5D6F000CDB401 /* 左滑菜单栏的实现Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84C866A21CE5D6F000CDB401 /* 左滑菜单栏的实现UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C866B21CE5D6F000CDB401 /* Build configuration list for PBXNativeTarget "左滑菜单栏的实现UITests" */;
+			buildPhases = (
+				84C8669F1CE5D6F000CDB401 /* Sources */,
+				84C866A01CE5D6F000CDB401 /* Frameworks */,
+				84C866A11CE5D6F000CDB401 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84C866A51CE5D6F000CDB401 /* PBXTargetDependency */,
+			);
+			name = "左滑菜单栏的实现UITests";
+			productName = "左滑菜单栏的实现UITests";
+			productReference = 84C866A31CE5D6F000CDB401 /* 左滑菜单栏的实现UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84C866741CE5D6EF00CDB401 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EC;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = EzioChiu;
+				TargetAttributes = {
+					84C8667B1CE5D6EF00CDB401 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = AM4U55P6ZN;
+					};
+					84C866971CE5D6F000CDB401 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = AM4U55P6ZN;
+						TestTargetID = 84C8667B1CE5D6EF00CDB401;
+					};
+					84C866A21CE5D6F000CDB401 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = AM4U55P6ZN;
+						TestTargetID = 84C8667B1CE5D6EF00CDB401;
+					};
+				};
+			};
+			buildConfigurationList = 84C866771CE5D6EF00CDB401 /* Build configuration list for PBXProject "左滑菜单栏的实现" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84C866731CE5D6EF00CDB401;
+			productRefGroup = 84C8667D1CE5D6EF00CDB401 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84C8667B1CE5D6EF00CDB401 /* 左滑菜单栏的实现 */,
+				84C866971CE5D6F000CDB401 /* 左滑菜单栏的实现Tests */,
+				84C866A21CE5D6F000CDB401 /* 左滑菜单栏的实现UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84C8667A1CE5D6EF00CDB401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C866921CE5D6F000CDB401 /* LaunchScreen.storyboard in Resources */,
+				84C8668F1CE5D6F000CDB401 /* Assets.xcassets in Resources */,
+				84C8668A1CE5D6F000CDB401 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C866961CE5D6F000CDB401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C866A11CE5D6F000CDB401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84C866781CE5D6EF00CDB401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C866D71CE5DD9C00CDB401 /* ECLeftButton.m in Sources */,
+				84C866E01CE5E9AD00CDB401 /* EC111ViewController.m in Sources */,
+				84C8668D1CE5D6F000CDB401 /* ________.xcdatamodeld in Sources */,
+				84C866BF1CE5D8A800CDB401 /* AppDelegate.m in Sources */,
+				84C866BE1CE5D8A800CDB401 /* ECMainController.m in Sources */,
+				84C866CF1CE5DA2500CDB401 /* UIView+Extension.m in Sources */,
+				84C866CC1CE5D9FC00CDB401 /* UIImage+Extension.m in Sources */,
+				84C866811CE5D6F000CDB401 /* main.m in Sources */,
+				84C866DD1CE5E0C800CDB401 /* ECNavigationController.m in Sources */,
+				84C866DA1CE5E03A00CDB401 /* ECTitleButton.m in Sources */,
+				84C866C91CE5D9B900CDB401 /* UIBarButtonItem+Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C866941CE5D6F000CDB401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C8669D1CE5D6F000CDB401 /* ________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C8669F1CE5D6F000CDB401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C866A81CE5D6F000CDB401 /* ________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84C8669A1CE5D6F000CDB401 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84C8667B1CE5D6EF00CDB401 /* 左滑菜单栏的实现 */;
+			targetProxy = 84C866991CE5D6F000CDB401 /* PBXContainerItemProxy */;
+		};
+		84C866A51CE5D6F000CDB401 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84C8667B1CE5D6EF00CDB401 /* 左滑菜单栏的实现 */;
+			targetProxy = 84C866A41CE5D6F000CDB401 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84C866881CE5D6F000CDB401 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C866891CE5D6F000CDB401 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84C866901CE5D6F000CDB401 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C866911CE5D6F000CDB401 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84C866AA1CE5D6F000CDB401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84C866AB1CE5D6F000CDB401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84C866AD1CE5D6F000CDB401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "左滑菜单栏的实现/PrefixHeader.pch";
+				INFOPLIST_FILE = "左滑菜单栏的实现/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ezio.Chiu.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84C866AE1CE5D6F000CDB401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "左滑菜单栏的实现/PrefixHeader.pch";
+				INFOPLIST_FILE = "左滑菜单栏的实现/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ezio.Chiu.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84C866B01CE5D6F000CDB401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "左滑菜单栏的实现Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ezio.Chiu.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/左滑菜单栏的实现.app/左滑菜单栏的实现";
+			};
+			name = Debug;
+		};
+		84C866B11CE5D6F000CDB401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "左滑菜单栏的实现Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ezio.Chiu.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/左滑菜单栏的实现.app/左滑菜单栏的实现";
+			};
+			name = Release;
+		};
+		84C866B31CE5D6F000CDB401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "左滑菜单栏的实现UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ezio.Chiu.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "左滑菜单栏的实现";
+			};
+			name = Debug;
+		};
+		84C866B41CE5D6F000CDB401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "左滑菜单栏的实现UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ezio.Chiu.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "左滑菜单栏的实现";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84C866771CE5D6EF00CDB401 /* Build configuration list for PBXProject "左滑菜单栏的实现" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C866AA1CE5D6F000CDB401 /* Debug */,
+				84C866AB1CE5D6F000CDB401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C866AC1CE5D6F000CDB401 /* Build configuration list for PBXNativeTarget "左滑菜单栏的实现" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C866AD1CE5D6F000CDB401 /* Debug */,
+				84C866AE1CE5D6F000CDB401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C866AF1CE5D6F000CDB401 /* Build configuration list for PBXNativeTarget "左滑菜单栏的实现Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C866B01CE5D6F000CDB401 /* Debug */,
+				84C866B11CE5D6F000CDB401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C866B21CE5D6F000CDB401 /* Build configuration list for PBXNativeTarget "左滑菜单栏的实现UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C866B31CE5D6F000CDB401 /* Debug */,
+				84C866B41CE5D6F000CDB401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84C8668B1CE5D6F000CDB401 /* ________.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84C8668C1CE5D6F000CDB401 /* ________.xcdatamodel */,
+			);
+			currentVersion = 84C8668C1CE5D6F000CDB401 /* ________.xcdatamodel */;
+			path = "________.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84C866741CE5D6EF00CDB401 /* Project object */;
+}
